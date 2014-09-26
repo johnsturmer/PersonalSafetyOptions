@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="pso.master.cs" Inherits="PersonalSafetyOptions.pso" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Personal Safety Options</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmMain" runat="server">
+    <div>
+        <table width="101%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+            <tr bgcolor="#EFE0C0"> 
+                <td valign="top" class="bgr" height="970">
+                  <div align="center"> 
+                    <table width="813" border="1" cellspacing="0" cellpadding="4" bordercolor="#996633">
+                        <tr bgcolor="#EFE0C0" valign="top"> 
+                            <td height="741"> 
+                              <table width="100%" border="0" align="center" cellpadding="8" cellspacing="0">
+                                <tr valign="top" bgcolor="#FFFFFF"> 
+                                    <td width="50%" height="2" class="small"> 
+                                        <a href="#">Home </a><img src="images/bullet-1.gif" width="8" height="9"> 
+                                        <a href="#">Site Map </a><img src="images/bullet-1.gif" width="8" height="9"> 
+                                        <a href="#">Contact Us </a><br>
+                                    </td>
+                                    <td align="right" class="bgr2" height="2"><span class="small">Personal Safety Options </span></td>
+                                </tr>
+                            </table>
+                                <div align="center">
+                                    <asp:ContentPlaceHolder ID="Image" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>  
+                                <table width="100%" border="0" align="center" cellspacing="0" cellpadding="4" bgcolor="#FFFFFF" bordercolor="#FFCC66">
+                                    <tr>
+                                        <td><asp:ContentPlaceHolder ID="Tab1" runat="server"></asp:ContentPlaceHolder></td>
+                                    </tr>
+                                </table> 
+
+                            </td>
+                        </tr>
+                      </table>
+                    </div>
+                </td> 
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

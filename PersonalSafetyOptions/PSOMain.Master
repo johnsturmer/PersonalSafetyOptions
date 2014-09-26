@@ -1,0 +1,233 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PSOMain.master.cs" Inherits="PersonalSafetyOptions.PSOMain" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Main Test</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" bgcolor="#FFFFFF">
+    <form id="frmMain" runat="server">
+		<table width="101%" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+			<tr bgcolor="#EFE0C0">
+				<td valign="top" class="bgr" height="970">
+					<div align="center">
+						<table width="813" border="1" cellspacing="0" cellpadding="4" bordercolor="#996633">
+							<tr bgcolor="#EFE0C0" valign="top">
+								<td height="741">
+									<table width="100%" border="0" align="center" cellpadding="8" cellspacing="0">
+										<tr valign="top" bgcolor="#FFFFFF">
+											<td width="50%" height="2" class="small" style="text-align: left"><a href="#">Home </a>
+												<img src="images/bullet-1.gif" width="8" height="9">
+												<a href="#">Site Map </a>
+												<img src="images/bullet-1.gif" width="8" height="9">
+												<a href="#">Contact Us </a>
+												<br>
+											</td>
+											<td align="right" class="bgr2" height="2"><span class="small">Personal Safety Options </span></td>
+										</tr>
+									</table>
+									<div align="center">
+										<asp:ContentPlaceHolder ID="ImagePlaceholder" runat="server">
+										</asp:ContentPlaceHolder>
+									</div>
+									<table width="100%" border="0" align="center" cellspacing="0" cellpadding="4" bgcolor="#FFFFFF" bordercolor="#FFCC66" style="text-align: left">
+										<tr>
+											<td width="153" valign="top" height="454" bgcolor="#FFFFFF">
+												<table width="150" border="0" cellspacing="0" cellpadding="3" bordercolor="#CCCCFF">
+													<tr>
+														<td width="161" class="menu" align="left">
+															<div align="left">
+																<h2><strong>Navigation</strong></h2>
+															</div>
+														</td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="161">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<a href="#">About Us</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="161">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<a href="#">Course Descriptions</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="161">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<a href="#">Schedule</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="161">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<a href="#">Register Now!</a></td>
+													</tr>
+												</table>
+												<br>
+												<table width="153" border="0" cellspacing="0" cellpadding="3" bordercolor="#CCCCCC">
+													<tr bordercolor="#CCCCFF" bgcolor="#FFFFFF">
+														<td width="161" class="menu" align="left">
+															<div align="left">
+																<h2><strong>More Info</strong></h2>
+															</div>
+														</td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="147">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<img src="images/transp.gif" width="1" height="1">
+                                                            <a href="#">REACT</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="147">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<img src="images/transp.gif" width="1" height="1">
+                                                            <a href="Pistol.aspx">Pistol Permit</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="147">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<img src="images/transp.gif" width="1" height="1">
+															<a href="#">Ounce Of Prevention</a></td>
+													</tr>
+												</table>
+												<table width="150" border="0" cellspacing="0" cellpadding="3" bordercolor="#CCCCCC">
+													<tr>
+														<td height="16" background="images/menu_inactive.gif" class="menu" width="160">&nbsp;</td>
+													</tr>
+												</table>
+												<br />
+											</td>
+											<asp:ContentPlaceHolder ID="MainPagePlaceHolder" runat="server"></asp:ContentPlaceHolder>
+											<td width="110" valign="top" class="text" height="454" bgcolor="#FFFFFF">
+												<table width="150" border="0" cellspacing="0" cellpadding="3" bordercolor="#CCCCFF">
+													<asp:ContentPlaceHolder ID="RightMenuPlaceholder" runat="server"></asp:ContentPlaceHolder>
+												</table>
+											</td>
+<!--											
+												
+													<tr>
+														<td width="161" class="menu" align="left">
+															<div align="left">
+																<h2><strong>Navigation</strong></h2>
+															</div>
+														</td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="161">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<a href="#">About Us</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="161">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<a href="#">Product Line</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="161">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<a href="#">Support</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="161">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<a href="#">More Information</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="161">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<img src="images/transp.gif" width="1" height="1"><a href="#">Features</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="161">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<img src="images/transp.gif" width="1" height="1"><a href="#">Purchase</a></td>
+													</tr>
+												</table>
+												<br>
+												<table width="153" border="0" cellspacing="0" cellpadding="3" bordercolor="#CCCCCC">
+													<tr bordercolor="#CCCCFF">
+														<td width="161" class="menu" align="left">
+															<div align="left">
+																<h2><strong>Benefits</strong></h2>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td class="menu" width="147">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<img src="images/transp.gif" width="1" height="1"><a href="#">Product 
+                          Benefits</a></td>
+													</tr>
+													<tr>
+														<td class="menu" width="147">
+															<img src="images/transp.gif" width="1" height="1"><img src="images/bullet-1.gif" width="8" height="9">
+															<a href="#">Product Features </a></td>
+													</tr>
+													<tr>
+														<td class="menu" width="147">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<a href="#">White Papers</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="147">&nbsp;</td>
+													</tr>
+													<tr bordercolor="#CCCCFF">
+														<td width="161" class="menu" align="left">
+															<div align="left">
+																<h2><strong>Products</strong></h2>
+															</div>
+														</td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="147">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<img src="images/transp.gif" width="1" height="1"><a href="#">Product 
+                          Name 1</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="147">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<img src="images/transp.gif" width="1" height="1"><a href="#">Product 
+                          Name 2</a></td>
+													</tr>
+													<tr bgcolor="#FFFFFF">
+														<td class="menu" width="147">
+															<img src="images/bullet-1.gif" width="8" height="9">
+															<a href="#">Product Name 3</a></td>
+													</tr>
+												</table>
+												<table width="150" border="0" cellspacing="0" cellpadding="3" bordercolor="#CCCCCC">
+													<tr>
+														<td height="16" background="images/menu_inactive.gif" class="menu" width="160">&nbsp;</td>
+													</tr>
+												</table>
+												<br>
+											</td>-->
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</div>
+      <table width="860" border="0" align="center" cellpadding="4" cellspacing="0">
+        <tr class="small" valign="top" bgcolor="#FFFFFF"> 
+          <td width="253" height="31" bgcolor="#EFE0C0">Copyright &copy; 2009 
+            <a href="http://www.webmaster-templates.net">Webmaster Templates</a><br>
+            All rights reserved</td>
+          <td height="31" width="591" bgcolor="#EFE0C0"><a href="#">Home</a> | 
+            <a href="#">CompanyInformation</a> | <a href="#">Product Information</a> 
+            | <a href="#">Product Benefits</a> | <a href="#">Product Support</a> 
+            | <a href="#"> Forums</a></td>
+        </tr>
+      </table>
+      <br>
+
+				</td>
+			</tr>
+		</table>
+    </form>
+</body>
+</html>
