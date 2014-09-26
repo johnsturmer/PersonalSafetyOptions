@@ -7,7 +7,7 @@
                     <table width="100%" border="0" cellpadding="2" bordercolor="#CCCCCC" cellspacing="0">
                       <tr> 
                         <td height="2"> 
-                          <h1>Personal Safety Options -- Your Safety Is About YOU!<br />
+                          <h1>Personal Safety Options -- The Pistol Permit Specialists!<br />
                             <img src="./images/breaker.png" width="396" height="2"> 
                           </h1>
                         </td>
