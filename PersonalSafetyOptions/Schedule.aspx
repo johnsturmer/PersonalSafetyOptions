@@ -7,15 +7,22 @@
     <td width="563" valign="top" class="text" height="454" bgcolor="#FFFFFF">
         <table width="100%" border="0" cellpadding="2" bordercolor="#CCCCCC" cellspacing="0">
             <tr>
+                <td height="2">
+                    <h1>Upcomming Classes<br />
+                        <img src="./images/breaker.png" width="400" height="2">
+                    </h1>
+                </td>
+            </tr>
+            <tr>
                 <td>
-                    <tablewidth="100%" border="0" cellpadding="2" bordercolor="#CCCCCC" cellspacing="0">
+                    <table width="400" border="0" cellpadding="2" bordercolor="#CCCCCC" cellspacing="0">
                         <tbody>
                             <tr>
-                                <th style="text-align:left"><strong>Date</strong></th>
-                                <th style="text-align:left"><strong>Course</strong></th>
-                                <th style="text-align:left"><strong>Location</strong></th>
-                                <th style="text-align:left"><strong>Cost</strong></th>
-                                <th style="text-align:left"><strong>Register</strong></th>
+                                <th style="text-align: left"><strong>Date</strong></th>
+                                <th style="text-align: left"><strong>Course</strong></th>
+                                <th style="text-align: left"><strong>Location</strong></th>
+                                <th style="text-align: left"><strong>Cost</strong></th>
+                                <th style="text-align: left"><strong>Register</strong></th>
                             </tr>
 
 
@@ -56,7 +63,7 @@
                                 <td colspan="5">To enroll <a href="mailto:training@learntoshootct.com">Email training@learntoshootct.com</a> or call 203-572-1286</td>
                             </tr>
                         </tbody>
-                    </tablewidth="100%">
+                    </table>
                 </td>
             </tr>
 
