@@ -57,7 +57,7 @@
 													<tr bgcolor="#FFFFFF">
 														<td class="menu" width="161">
 															<img src="images/bullet-1.gif" width="8" height="9">
-															<a href="#">Schedule</a></td>
+															<a href="Schedule.aspx">Schedule</a></td>
 													</tr>
 													<tr bgcolor="#FFFFFF">
 														<td class="menu" width="161">
