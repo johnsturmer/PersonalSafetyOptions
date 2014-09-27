@@ -33,7 +33,7 @@
                         After passing the NRA Basic Pistol Course, you will need to go to the Local Police Department or Resident State Trooper in the town in which you live and obtain an application.  Read everything carefully, dot all of the "I"'s and cross all the "T"'s  
                         Once you have taken your class, filled out the application, and had it notarized, you will have to call your local PD to find out how to apply and get your fingerprints taken.  Some towns require you to make an appointment, others have scheduled hours, and others will do it any time.
                         Now the waiting begins, while the town processes your application.
-                        If you are approved, you will receive a temporary permit to carry pistols and revolvers.  With this permit you MAY carry a pistol, however you may NOT buy one.  Once you receive your temporary permit, take it (and the necessary fes of course) to a State Police Barracks at the appropriate time and they will give you your State Permit.  NOW you may go purchase a gun.
+                        If you are approved, you will receive a temporary permit to carry pistols and revolvers.  With this permit you MAY carry a pistol, however you may NOT buy one.  Once you receive your temporary permit, take it (and the necessary fees of course) to a State Police Barracks at the appropriate time and they will give you your State Permit.  NOW you may go purchase a gun.
 
                     </p>
                 </td>
