@@ -51,32 +51,35 @@
                     <p>
                         <a href="http://www.cga.ct.gov/current/pub/chap_529.htm#Sec29-28.htm" target="_blank">CT General Ststute 29-28(b) outlines the requirements
                         </a>
-                        You must have taken a State Approved Pistol Safety Course
-You must be over 21 years old
-You must not have a conviction for a felony, or a crime that would be a felony if comitted in CT
-You must not have been convicted of any of the following misdemeanors:
-
-Posession of a controlled substance other than a Narcotic, Posession of a Hallucinogenic other than Marijuana as defined in <a href="http://www.cga.ct.gov/current/pub/chap_420b.htm#Sec21a-279.htm" target="_blank">CGS 21a-279(c)</a>
-                        Criminally Negligent Homicide <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-58.htm" target="_blank">CGS 53a-58</a>
-                        Assault In The Third Degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-61.htm" target="_blank">CGS 53a-61</a>
-                        Assault of an elderly, blind, disabled, pregnant or mentally retarded person in the third degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-61a.htm" target="_blank">CGS 53a-61a</a>
-                        Threatening in the second degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-62.htm" target="_blank">CGS 53a-62</a>
-                        Reckless endangerment in the first degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-63.htm" target="_blank">CGS 53a-63</a>
-                        Unlawful restraint in the second degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-96.htm" target="_blank">CGS 53a-96</a>
-                        Riot in the first degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-175.htm" target="_blank">CGS 53a-175</a>
-                        Riot in the second degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-176.htm" target="_blank">CGS 53a-176</a>
-                        Inciting to riot <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-178.htm" target="_blank">CGS 53a-178</a>
-                        Stalking in the third degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-181d.htm" target="_blank">CGS 53a-181d</a>
-
-                        You must not have been convicted as delinquent for a serious juvenille offense
-You must not have been discharged from custody within the preceding twenty years after having been found not guilty of a crime by reason of mental disease or defect
-You must not have been confined in a hospital for persons with psychiatric disabilities, as defined in section 17a-495, within the preceding twelve months by order of a probate court
-You must not be subject to a restraining or protective order issued by a court in a case involving the use, attempted use or threatened use of physical force against another person.
-You must not be subject to a firearms seizure order issued pursuant to subsection (d) of section 29-38c after notice and hearing 
-You must not be prohibited from shipping, transporting, possessing or receiving a firearm pursuant to 18 USC 922(g)(4) 
-You must not be an alien illegally or unlawfully in the United States
-
-                    </p>
+                    </p>    
+                    <ul>
+                        <li>You must have taken a State Approved Pistol Safety Course</li>
+                        <li>You must be over 21 years old</li>
+                        <li>You must not have a conviction for a felony, or a crime that would be a felony if comitted in CT</li>
+                        <li>You must not have been convicted of any of the following misdemeanors:
+                            <ul>
+                                <li>Posession of a controlled substance other than a Narcotic</li>
+                                <li>Posession of a Hallucinogenic other than Marijuana as defined in <a href="http://www.cga.ct.gov/current/pub/chap_420b.htm#Sec21a-279.htm" target="_blank">CGS 21a-279(c)</a></li>
+                                <li>Criminally Negligent Homicide <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-58.htm" target="_blank">CGS 53a-58</a></li>
+                                <li>Assault In The Third Degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-61.htm" target="_blank">CGS 53a-61</a></li>
+                                <li>Assault of an elderly, blind, disabled, pregnant or mentally retarded person in the third degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-61a.htm" target="_blank">CGS 53a-61a</a></li>
+                                <li>Threatening in the second degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-62.htm" target="_blank">CGS 53a-62</a></li>
+                                <li>Reckless endangerment in the first degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-63.htm" target="_blank">CGS 53a-63</a></li>
+                                <li>Unlawful restraint in the second degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-96.htm" target="_blank">CGS 53a-96</a></li>
+                                <li>Riot in the first degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-175.htm" target="_blank">CGS 53a-175</a></li>
+                                <li>Riot in the second degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-176.htm" target="_blank">CGS 53a-176</a></li>
+                                <li>Inciting to riot <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-178.htm" target="_blank">CGS 53a-178</a></li>
+                                <li>Stalking in the third degree <a href="http://www.cga.ct.gov/current/pub/chap_952.htm#Sec53a-181d.htm" target="_blank">CGS 53a-181d</a></li>
+                            </ul>
+                        </li>
+                            <li>You must not have been convicted as delinquent for a serious juvenille offense
+                            <li>You must not have been discharged from custody within the preceding twenty years after having been found not guilty of a crime by reason of mental disease or defect</li>
+                            <li>You must not have been confined in a hospital for persons with psychiatric disabilities, as defined in section 17a-495, within the preceding twelve months by order of a probate court</li>
+                            <li>You must not be subject to a restraining or protective order issued by a court in a case involving the use, attempted use or threatened use of physical force against another person.</li>
+                            <li>You must not be subject to a firearms seizure order issued pursuant to subsection (d) of section 29-38c after notice and hearing </li>
+                            <li>You must not be prohibited from shipping, transporting, possessing or receiving a firearm pursuant to 18 USC 922(g)(4) </li>
+                            <li>You must not be an alien illegally or unlawfully in the United States</li>
+                    </ul>    
                 </td>
             </tr>
 
