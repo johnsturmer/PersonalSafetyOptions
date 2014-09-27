@@ -58,6 +58,7 @@
   <ItemGroup>
     <Content Include="Description.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="PermitInfo.aspx" />
     <Content Include="Pistol.aspx" />
     <Content Include="Schedule.aspx" />
     <Content Include="Test1.aspx" />
@@ -92,6 +93,13 @@
     </Compile>
     <Compile Include="NestedPage.master.designer.cs">
       <DependentUpon>NestedPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="PermitInfo.aspx.cs">
+      <DependentUpon>PermitInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PermitInfo.aspx.designer.cs">
+      <DependentUpon>PermitInfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pistol.aspx.cs">
       <DependentUpon>Pistol.aspx</DependentUpon>

@@ -19,22 +19,7 @@
 	<tr bgcolor="#FFFFFF">
 		<td class="menu" width="161">
 			<img src="images/bullet-1.gif" width="8" height="9">
-			<a href="#">Who Can Get A Permit?</a></td>
-	</tr>
-	<tr bgcolor="#FFFFFF">
-		<td class="menu" width="161">
-			<img src="images/bullet-1.gif" width="8" height="9">
-			<a href="#">Which Permit Should I Get?</a></td>
-	</tr>
-	<tr bgcolor="#FFFFFF">
-		<td class="menu" width="161">
-			<img src="images/bullet-1.gif" width="8" height="9">
-			<a href="#">How Do I Apply?</a></td>
-	</tr>
-	<tr bgcolor="#FFFFFF">
-		<td class="menu" width="161">
-			<img src="images/bullet-1.gif" width="8" height="9">
-			<a href="#">Safety Information</a></td>
+			<a href="PermitInfo.aspx">Getting A Permit</a></td>
 	</tr>
 	</table>
 												<br>
