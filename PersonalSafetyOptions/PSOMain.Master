@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Main Test</title>
+    <title>Personal Safety Options</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 	<link href="main.css" rel="stylesheet" type="text/css">
 </head>
@@ -52,7 +52,7 @@
 													<tr bgcolor="#FFFFFF">
 														<td class="menu" width="161">
 															<img src="images/bullet-1.gif" width="8" height="9">
-															<a href="#">Course Descriptions</a></td>
+															<a href="Description.aspx">Course Descriptions</a></td>
 													</tr>
 													<tr bgcolor="#FFFFFF">
 														<td class="menu" width="161">
