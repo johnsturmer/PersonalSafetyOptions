@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Description.aspx" />
+    <Content Include="FirearmsLinks.aspx" />
     <Content Include="GunSafety.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="PermitInfo.aspx" />
@@ -80,6 +81,13 @@
     </Compile>
     <Compile Include="Description.aspx.designer.cs">
       <DependentUpon>Description.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FirearmsLinks.aspx.cs">
+      <DependentUpon>FirearmsLinks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FirearmsLinks.aspx.designer.cs">
+      <DependentUpon>FirearmsLinks.aspx</DependentUpon>
     </Compile>
     <Compile Include="GunSafety.aspx.cs">
       <DependentUpon>GunSafety.aspx</DependentUpon>
