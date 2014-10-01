@@ -60,7 +60,7 @@
                     <br />
                     <p>Once you get your pistol permit, we are there to help you in selecting the right gun for YOU, for additional Firearms Training, and, if we have a gun, whether used in class or not, that you are interested in trying, we will agree to meet at a shooting range so that you can shoot it.</p>
                     <br />
-                    <p>We offer both classroom and private firearms training. For a complete class schedule <a href="/?Schedule.aspx">click here</a>.
+                    <p>We offer both classroom and private firearms training. For a complete class schedule <a href="/Schedule.aspx">click here</a>.
                     For a description of our course offerings, <a href="Description.aspx">click here</a>.
                     </p>
                 </td>

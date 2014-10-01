@@ -24,7 +24,6 @@
             <tr>
                 <td height="29">
                     <p>
-                        If you are experiencing delays, or want to know how long your permit <strong>SHOULD</strong> take, please see <a href="?page_id=100">Permit Timelines</a><br />
                         Some peole want a "Gun Permit", "Concealed Carry Permit", or "Gun License".  They go by different names, but in CT, it is called a Permit to carry pistols or revolvers.  The first step in CT is to take the NRA Basic Pistol course.
                         Once you have taken the NRA Basic Pistol Course, you may then apply for a CT Permit To Carry Pistols and Revolvers.
                     </p>

@@ -65,13 +65,13 @@
                 <td class="menu" width="147">
                     <img src="images/bullet-1.gif" width="8" height="9">
                     <img src="images/transp.gif" width="1" height="1">
-                    <a href="http://cga.ct.gov">CT General Statutes</a></td>
+                    <a href="http://cga.ct.gov" target="_blank">CT General Statutes</a></td>
             </tr>
             <tr bgcolor="#FFFFFF">
                 <td class="menu" width="147">
                     <img src="images/bullet-1.gif" width="8" height="9">
                     <img src="images/transp.gif" width="1" height="1">
-                    <a href="#">Pro 2A Organizations</a></td>
+                    <a href="http://membership.nrahq.org/default.asp?campaignid=XI024720" target="_blank">Join the NRA</a></td>
             </tr>
     </table>
     <table width="150" border="0" cellspacing="0" cellpadding="3" bordercolor="#CCCCCC">

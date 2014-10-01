@@ -30,7 +30,7 @@
                                 <td>
                                     <span itemprop="startDate" content="2014-10-11">Oct 11, 2014</span>
                                 </td>
-                                <td><a href="/?page_id=8">NRA Basic Pistol</a>
+                                <td><a href="Description.aspx" target="_blank">NRA Basic Pistol</a>
                                 </td>
                                 <td>Wilton, CT
                                 </td>
@@ -41,7 +41,7 @@
                                 <td>
                                     <span itemprop="startDate" content="2014-11-08">Nov 8, 2014</span>
                                 </td>
-                                <td><a href="/?page_id=8">NRA Basic Pistol</a>
+                                <td><a href="Description.aspx" target="_blank">NRA Basic Pistol</a>
                                 </td>
                                 <td>Wilton, CT
                                 </td>
@@ -52,7 +52,7 @@
                                 <td>
                                     <span itemprop="startDate" content="2014-12-13">Dec 13, 2014</span>
                                 </td>
-                                <td><a href="/?page_id=8">NRA Basic Pistol</a>
+                                <td><a href="Description.aspx" target="_blank">NRA Basic Pistol</a>
                                 </td>
                                 <td>Wilton, CT
                                 </td>
