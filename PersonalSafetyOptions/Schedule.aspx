@@ -39,6 +39,17 @@
                             </tr>
                             <tr itemscope itemtype="http://schema.org/Event">
                                 <td>
+                                    <span itemprop="startDate" content="2014-10-11">Oct 19, 2014</span>
+                                </td>
+                                <td><a href="Description.aspx" target="_blank">REACT Seminar</a>
+                                </td>
+                                <td>Wilton, CT
+                                </td>
+                                <td><span itemprop="price">$150</span>**</td>
+                                <td><a href="mailto:senshido_ct@yahoo.com" target="_blank">Register Now</a></td>
+                            </tr>
+                            <tr itemscope itemtype="http://schema.org/Event">
+                                <td>
                                     <span itemprop="startDate" content="2014-11-08">Nov 8, 2014</span>
                                 </td>
                                 <td><a href="Description.aspx" target="_blank">NRA Basic Pistol</a>
