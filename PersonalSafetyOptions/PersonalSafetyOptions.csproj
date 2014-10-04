@@ -57,10 +57,12 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
     <Content Include="Description.aspx" />
     <Content Include="FirearmsLinks.aspx" />
     <Content Include="GunSafety.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="ounceofprev.aspx" />
     <Content Include="PermitInfo.aspx" />
     <Content Include="Pistol.aspx" />
     <Content Include="React.aspx" />
@@ -70,6 +72,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="BasePage.Master.cs">
       <DependentUpon>BasePage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -111,6 +120,13 @@
     </Compile>
     <Compile Include="NestedPage.master.designer.cs">
       <DependentUpon>NestedPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="ounceofprev.aspx.cs">
+      <DependentUpon>ounceofprev.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ounceofprev.aspx.designer.cs">
+      <DependentUpon>ounceofprev.aspx</DependentUpon>
     </Compile>
     <Compile Include="PermitInfo.aspx.cs">
       <DependentUpon>PermitInfo.aspx</DependentUpon>

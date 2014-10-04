@@ -47,5 +47,3 @@
         </table>
     </td>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="RightMenuPlaceHolder" runat="server">
-</asp:Content>

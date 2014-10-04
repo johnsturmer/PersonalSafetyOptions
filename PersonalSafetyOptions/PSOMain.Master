@@ -47,7 +47,7 @@
 													<tr bgcolor="#FFFFFF">
 														<td class="menu" width="161">
 															<img src="images/bullet-1.gif" width="8" height="9">
-															<a href="#">About Us</a></td>
+															<a href="about.aspx">About Us</a></td>
 													</tr>
 													<tr bgcolor="#FFFFFF">
 														<td class="menu" width="161">
@@ -85,7 +85,7 @@
 														<td class="menu" width="147">
 															<img src="images/bullet-1.gif" width="8" height="9">
 															<img src="images/transp.gif" width="1" height="1">
-															<a href="#">Ounce Of Prevention</a></td>
+															<a href="Ounceofprev.aspx">Ounce Of Prevention</a></td>
 													</tr>
 												</table>
 												<table width="150" border="0" cellspacing="0" cellpadding="3" bordercolor="#CCCCCC">

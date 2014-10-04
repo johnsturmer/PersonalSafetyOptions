@@ -6,5 +6,75 @@
     <asp:ContentPlaceHolder ID="MainPlaceholder" runat="server"></asp:ContentPlaceHolder>
 </asp:Content>
 <asp:Content ID="RightMenuContent" ContentPlaceHolderID="RightMenuPlaceholder" runat="server">
-    <asp:ContentPlaceHolder ID="RightMenuPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+    <tr>
+        <td width="161" class="menu" align="left">
+            <div align="left">
+                <h2><strong>Senshido, CT</strong></h2>
+            </div>
+        </td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+        <td class="menu" width="161">
+            <img src="images/bullet-1.gif" width="8" height="9">
+            <a href="#">Testimonials</a>
+        </td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+        <td class="menu" width="161">
+            <img src="images/bullet-1.gif" width="8" height="9">
+            <a href="#">Photo Gallery</a>
+        </td>
+    </tr>
+    <tr bgcolor="#FFFFFF">
+        <td class="menu" width="161">
+            <img src="images/bullet-1.gif" width="8" height="9">
+            <a href="#">Videos</a>
+        </td>
+    </tr>
+    </table>
+												<br>
+    <table width="153" border="0" cellspacing="0" cellpadding="3" bordercolor="#CCCCCC">
+        <tr bordercolor="#CCCCFF">
+            <td width="161" class="menu" align="left">
+                <div align="left">
+                    <h2><strong>Classes</strong></h2>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <tr>
+                <td class="menu" width="147">
+                    <img src="images/transp.gif" width="1" height="1"><img src="images/bullet-1.gif" width="8" height="9">
+                    <img src="images/transp.gif" width="1" height="1">
+                    <a href="Schedule.aspx">Upcoming Classes </a></td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+                <td class="menu" width="147">&nbsp;</td>
+            </tr>
+            <tr bordercolor="#CCCCFF">
+                <td width="161" class="menu" align="left">
+                    <div align="left">
+                        <h2><strong>Other</strong></h2>
+                    </div>
+                </td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+                <td class="menu" width="147">
+                    <img src="images/bullet-1.gif" width="8" height="9">
+                    <img src="images/transp.gif" width="1" height="1">
+                    <a href="#">Links</a></td>
+            </tr>
+            <tr bgcolor="#FFFFFF">
+                <td class="menu" width="147">
+                    <img src="images/bullet-1.gif" width="8" height="9">
+                    <img src="images/transp.gif" width="1" height="1">
+                    <a href="#" target="_blank">Blog</a></td>
+            </tr>
+    </table>
+    <table width="150" border="0" cellspacing="0" cellpadding="3" bordercolor="#CCCCCC">
+        <tr>
+            <td height="16" background="images/menu_inactive.gif" class="menu" width="160">&nbsp;</td>
+        </tr>
+    </table>
+    <br>
 </asp:Content>
