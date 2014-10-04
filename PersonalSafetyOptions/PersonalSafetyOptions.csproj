@@ -63,6 +63,7 @@
     <Content Include="Home.aspx" />
     <Content Include="PermitInfo.aspx" />
     <Content Include="Pistol.aspx" />
+    <Content Include="React.aspx" />
     <Content Include="Schedule.aspx" />
     <Content Include="Test1.aspx" />
     <Content Include="Test2.aspx" />
@@ -140,6 +141,20 @@
     <Compile Include="PSOMain.Master.designer.cs">
       <DependentUpon>PSOMain.Master</DependentUpon>
     </Compile>
+    <Compile Include="React.aspx.cs">
+      <DependentUpon>React.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="React.aspx.designer.cs">
+      <DependentUpon>React.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="REACT.master.cs">
+      <DependentUpon>REACT.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REACT.master.designer.cs">
+      <DependentUpon>REACT.master</DependentUpon>
+    </Compile>
     <Compile Include="Schedule.aspx.cs">
       <DependentUpon>Schedule.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -173,6 +188,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PistolMain.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="REACT.master" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

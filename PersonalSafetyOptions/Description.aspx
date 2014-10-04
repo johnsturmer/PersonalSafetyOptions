@@ -39,7 +39,27 @@ Obtain the Knowledge, Skills and Attitude to own and use a pistol safely.  This 
                     </p>
                 </td>
             </tr>
-
+            <tr>
+                <td>
+                    <h2>REACT
+                        <br />
+                    </h2>
+                </td>
+            </tr>
+            <tr>
+                <td height="29">
+                    <p>
+                        R.E.A.C.T. ( Rapid Engagement Assault Counter Tactic  aka: The Shredder ) is an extreme close quarters combat concept.
+                        It is based on both human physiology and psychology as it utilizes and exploits your natural defensive reactions, 
+                        and therefor is not dependent on speed, size or strength.  
+                        The R.E.A.C.T. concept forces an instant reversal of the predator / prey relationship.  The concept can be used for 
+                        a wide range of 'use of force' situations, from merely controlling a belligerent contact to defending yourself in 
+                        a life or death conflict. Because this primal concept is a natural human reaction, it does not require years to learn.
+                        In mere hours a student can have a functional tool to protect themselves in any situation. The R.E.A.C.T. concept 
+                        is not graceful or pretty.  It is however effective in the real world, and that makes it beautiful!
+                    </p>
+                </td>
+            </tr>
         </table>
     </td>
 
