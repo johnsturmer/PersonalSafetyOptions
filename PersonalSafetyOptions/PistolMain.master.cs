@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Utilities;
 
 namespace PersonalSafetyOptions
 {
@@ -13,5 +14,14 @@ namespace PersonalSafetyOptions
 		{
 
 		}
+
+        protected string GetMetaKeywords
+        {
+            get
+            {
+                return SharedTools.GetMetaTag("PistolMain");
+            }
+        }
+
 	}
 }

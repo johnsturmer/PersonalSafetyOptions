@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalSafetyOptions", "PersonalSafetyOptions\PersonalSafetyOptions.csproj", "{4184ED54-1A8C-4412-B738-86FCDFFBF8FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{972A4C01-95F3-43FA-A91C-72BA81C1E1FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{4184ED54-1A8C-4412-B738-86FCDFFBF8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4184ED54-1A8C-4412-B738-86FCDFFBF8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4184ED54-1A8C-4412-B738-86FCDFFBF8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972A4C01-95F3-43FA-A91C-72BA81C1E1FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972A4C01-95F3-43FA-A91C-72BA81C1E1FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972A4C01-95F3-43FA-A91C-72BA81C1E1FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972A4C01-95F3-43FA-A91C-72BA81C1E1FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

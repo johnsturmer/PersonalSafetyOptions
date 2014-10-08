@@ -1,5 +1,8 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/PSOMain.Master" AutoEventWireup="true" CodeBehind="PistolMain.master.cs" Inherits="PersonalSafetyOptions.PistolMain" %>
 
+<asp:Content ID="HeaderContent" ContentPlaceHolderID="HeaderPlaceholder" runat="server">
+    <meta name="keywords" content="<%=this.GetMetaKeywords %>" />
+</asp:Content>
 <asp:Content ID="ImageContent" ContentPlaceHolderID="ImagePlaceholder" runat="server">
     <asp:ContentPlaceHolder ID="ImagePlaceholder" runat="server"></asp:ContentPlaceHolder>
 </asp:Content>

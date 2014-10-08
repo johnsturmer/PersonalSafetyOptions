@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TESTDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="TESTDBModelStoreContainer">
+    <EntitySet Name="Classes" EntityType="TESTDBModel.Store.Classes" store:Type="Tables" Schema="pso" />
+    <EntitySet Name="Courses" EntityType="TESTDBModel.Store.Courses" store:Type="Tables" Schema="pso" />
+    <EntitySet Name="Locations" EntityType="TESTDBModel.Store.Locations" store:Type="Tables" Schema="pso" />
+    <EntitySet Name="Registrations" EntityType="TESTDBModel.Store.Registrations" store:Type="Tables" Schema="pso" />
+    <EntitySet Name="Students" EntityType="TESTDBModel.Store.Students" store:Type="Tables" Schema="pso" />
+    <AssociationSet Name="FK_Classes_Courses" Association="TESTDBModel.Store.FK_Classes_Courses">
+      <End Role="Courses" EntitySet="Courses" />
+      <End Role="Classes" EntitySet="Classes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Registrations_Classes" Association="TESTDBModel.Store.FK_Registrations_Classes">
+      <End Role="Classes" EntitySet="Classes" />
+      <End Role="Registrations" EntitySet="Registrations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Registrations_Students" Association="TESTDBModel.Store.FK_Registrations_Students">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Registrations" EntitySet="Registrations" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Classes">
+    <Key>
+      <PropertyRef Name="ClassId" />
+    </Key>
+    <Property Name="ClassId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CourseId" Type="int" Nullable="false" />
+    <Property Name="LocationId" Type="int" Nullable="false" />
+    <Property Name="ClassDate" Type="smalldatetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Courses">
+    <Key>
+      <PropertyRef Name="CourseId" />
+    </Key>
+    <Property Name="CourseId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CourseName" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="CourseDescription" Type="varchar" />
+    <Property Name="BasePrice" Type="decimal" Nullable="false" Precision="6" Scale="2" />
+  </EntityType>
+  <EntityType Name="Locations">
+    <Key>
+      <PropertyRef Name="LocationId" />
+    </Key>
+    <Property Name="LocationId" Type="int" Nullable="false" />
+    <Property Name="LocationName" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="Address1" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="Address2" Type="varchar" MaxLength="25" />
+    <Property Name="City" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="State" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PostalCode" Type="varchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Registrations">
+    <Key>
+      <PropertyRef Name="RegistrationId" />
+    </Key>
+    <Property Name="RegistrationId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClassId" Type="int" Nullable="false" />
+    <Property Name="StudentId" Type="int" Nullable="false" />
+    <Property Name="Flags" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="MiddleInitial" Type="varchar" MaxLength="5" />
+    <Property Name="LastName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Email" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Phone" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="NRAID" Type="varchar" MaxLength="25" />
+    <Property Name="SpecialNeeds" Type="varchar" MaxLength="255" />
+    <Property Name="Address1" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="Address2" Type="varchar" MaxLength="25" />
+    <Property Name="City" Type="varchar" Nullable="false" MaxLength="25" />
+    <Property Name="State" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="PostalCode" Type="varchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK_Classes_Courses">
+    <End Role="Courses" Type="TESTDBModel.Store.Courses" Multiplicity="1" />
+    <End Role="Classes" Type="TESTDBModel.Store.Classes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Courses">
+        <PropertyRef Name="CourseId" />
+      </Principal>
+      <Dependent Role="Classes">
+        <PropertyRef Name="CourseId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Registrations_Classes">
+    <End Role="Classes" Type="TESTDBModel.Store.Classes" Multiplicity="1" />
+    <End Role="Registrations" Type="TESTDBModel.Store.Registrations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Classes">
+        <PropertyRef Name="ClassId" />
+      </Principal>
+      <Dependent Role="Registrations">
+        <PropertyRef Name="ClassId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Registrations_Students">
+    <End Role="Students" Type="TESTDBModel.Store.Students" Multiplicity="1" />
+    <End Role="Registrations" Type="TESTDBModel.Store.Registrations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="StudentId" />
+      </Principal>
+      <Dependent Role="Registrations">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

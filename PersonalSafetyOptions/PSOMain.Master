@@ -5,8 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Personal Safety Options</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	<link href="main.css" rel="stylesheet" type="text/css">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<link href="main.css" rel="stylesheet" type="text/css"/>
+    <asp:ContentPlaceHolder ID="HeaderPlaceholder" runat="server">
+    </asp:ContentPlaceHolder>
 </head>
 <body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" bgcolor="#FFFFFF">
     <form id="frmMain" runat="server">
@@ -21,9 +23,9 @@
 										<tr valign="top" bgcolor="#FFFFFF">
 											<td width="50%" height="2" class="small" style="text-align: left"><a href="Home.aspx">Home </a>
 												<img src="images/bullet-1.gif" width="8" height="9">
-												<a href="#">Site Map </a>
-												<img src="images/bullet-1.gif" width="8" height="9">
-												<a href="#">Contact Us </a>
+												<!--<a href="sitemap.xml">Site Map </a>
+												<img src="images/bullet-1.gif" width="8" height="9">-->
+												<a href="contact.aspx">Contact Us </a>
 												<br>
 											</td>
 											<td align="right" class="bgr2" height="2"><span class="small">Personal Safety Options </span></td>
@@ -213,9 +215,8 @@
             <a href="http://www.webmaster-templates.net">JJ Firearms Training, LLC</a><br>
             All rights reserved</td>
           <td height="31" width="591" bgcolor="#EFE0C0"><a href="Home.aspx">Home</a> | 
-            <a href="#">CompanyInformation</a> | <a href="#">Product Information</a> 
-            | <a href="#">Product Benefits</a> | <a href="#">Product Support</a> 
-            | <a href="#"> Forums</a></td>
+            <!--<a href="sitemap.xml">Site Map</a> |--> <a href="Contact.aspx">Contact Us</a> 
+           </td>
         </tr>
       </table>
       <br>

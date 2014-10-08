@@ -6,4 +6,6 @@ C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\Person
 C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\PersonalSafetyOptions\bin\PersonalSafetyOptions.pdb
 C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\PersonalSafetyOptions\obj\Debug\PersonalSafetyOptions.dll
 C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\PersonalSafetyOptions\obj\Debug\PersonalSafetyOptions.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\PersonalSafetyOptions\bin\Utilities.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\PersonalSafetyOptions\bin\Utilities.pdb
 C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\PersonalSafetyOptions\obj\Debug\PersonalSafetyOptions.csprojResolveAssemblyReference.cache

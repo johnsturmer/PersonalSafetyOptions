@@ -1,0 +1,5 @@
+C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\Utilities\bin\Debug\Utilities.dll.config
+C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\Utilities\bin\Debug\Utilities.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\Utilities\bin\Debug\Utilities.pdb
+C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\Utilities\obj\Debug\Utilities.dll
+C:\Users\John\Documents\Visual Studio 2012\Projects\PersonalSafetyOptions\Utilities\obj\Debug\Utilities.pdb

@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PSOMain.Master" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="PersonalSafetyOptions.Home" %>
 
 <asp:Content ID="ImageContent" ContentPlaceHolderID="ImagePlaceholder" runat="server">
-    <img src="images/bullet-2.png" width="850" height="248" />
+<!--    <img src="images/bullet-2.png" width="850" height="248" />-->
+    <img src="images/personalbnar.jpg" width="850" height="248" />
 </asp:Content>
 <asp:Content ID="MainPageContent" ContentPlaceHolderID="MainPagePlaceHolder" runat="server">
     <td width="563" valign="top" class="text" height="454" bgcolor="#FFFFFF">

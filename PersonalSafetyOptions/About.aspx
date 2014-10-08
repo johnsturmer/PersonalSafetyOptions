@@ -34,6 +34,18 @@
                     <h2>Our Instructors</h2>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <h3>Rick</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3>John</h3><br />
+                    John is an NRA Certified Pistol Instructor and Range Safety Office as well as a Glock certified armorer.
+                    He is the Managing Partner of JJ Firearms training.  John has been teaching for nearly 5 years.
+                </td>
+            </tr>
 
         </table>
     </td>
