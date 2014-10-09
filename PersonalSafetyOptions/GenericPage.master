@@ -1,0 +1,12 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/PSOMain.Master" AutoEventWireup="true" CodeBehind="GenericPage.master.cs" Inherits="PersonalSafetyOptions.GenericPage" %>
+<asp:Content ID="HeaderContent" ContentPlaceHolderID="HeaderPlaceholder" runat="server">
+</asp:Content>
+<asp:Content ID="ImageContent" ContentPlaceHolderID="ImagePlaceholder" runat="server">
+    <img src="images/psobanner.jpg" width="850" height="248" />
+</asp:Content>
+<asp:Content ID="MainPageContent" ContentPlaceHolderID="MainPagePlaceHolder" runat="server">
+    <asp:ContentPlaceHolder ID="MainPagePlaceHolder" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="RightMenuContent" ContentPlaceHolderID="RightMenuPlaceholder" runat="server">
+    <asp:ContentPlaceHolder ID="RightMenuPlaceholder" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>

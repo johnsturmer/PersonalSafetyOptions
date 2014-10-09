@@ -1,9 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PSOMain.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="PersonalSafetyOptions.Contact" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="HeaderPlaceholder" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ImagePlaceholder" runat="server">
-    <img src="images/personalbnar.jpg" width="850" height="248" />
-</asp:Content>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GenericPage.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="PersonalSafetyOptions.Contact" %>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainPagePlaceHolder" runat="server">
     <td width="563" valign="top" class="text" height="454" bgcolor="#FFFFFF">
        <table width="100%" border="0" cellpadding="2" bordercolor="#CCCCCC" cellspacing="0">

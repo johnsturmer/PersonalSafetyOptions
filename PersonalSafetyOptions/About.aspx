@@ -1,7 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PSOMain.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="PersonalSafetyOptions.About" %>
-<asp:Content ID="ImageContent" ContentPlaceHolderID="ImagePlaceholder" runat="server">
-    <img src="images/bullet-2.png" width="850" height="248" />
-</asp:Content>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GenericPage.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="PersonalSafetyOptions.About" %>
 <asp:Content ID="MainContent" ContentPlaceHolderID="MainPagePlaceHolder" runat="server">
     <td width="563" valign="top" class="text" height="454" bgcolor="#FFFFFF">
         <table width="100%" border="0" cellpadding="2" bordercolor="#CCCCCC" cellspacing="0">

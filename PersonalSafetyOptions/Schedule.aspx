@@ -1,8 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PSOMain.Master" AutoEventWireup="true" CodeBehind="Schedule.aspx.cs" Inherits="PersonalSafetyOptions.Schedule" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/GenericPage.Master" AutoEventWireup="true" CodeBehind="Schedule.aspx.cs" Inherits="PersonalSafetyOptions.Schedule" %>
 
-<asp:Content ID="ImageContent" ContentPlaceHolderID="ImagePlaceholder" runat="server">
-    <img src="images/bullet-2.png" width="850" height="248" />
-</asp:Content>
 <asp:Content ID="MainPageContent" ContentPlaceHolderID="MainPagePlaceHolder" runat="server">
     <td width="563" valign="top" class="text" height="454" bgcolor="#FFFFFF">
         <table width="100%" border="0" cellpadding="2" bordercolor="#CCCCCC" cellspacing="0">

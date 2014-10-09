@@ -16,19 +16,19 @@
     <tr bgcolor="#FFFFFF">
         <td class="menu" width="161">
             <img src="images/bullet-1.gif" width="8" height="9">
-            <a href="#">Testimonials</a>
+            <a href="ReactTestimonials.aspx">Testimonials</a>
         </td>
     </tr>
     <tr bgcolor="#FFFFFF">
         <td class="menu" width="161">
             <img src="images/bullet-1.gif" width="8" height="9">
-            <a href="#">Photo Gallery</a>
+            <a href="http://www.senshidoct.com/Photo-Gallery.html" target="_blank">Photo Gallery</a>
         </td>
     </tr>
     <tr bgcolor="#FFFFFF">
         <td class="menu" width="161">
             <img src="images/bullet-1.gif" width="8" height="9">
-            <a href="#">Videos</a>
+            <a href="http://www.senshidoct.com/Videos.html" target="_blank">Videos</a>
         </td>
     </tr>
     </table>
@@ -62,13 +62,13 @@
                 <td class="menu" width="147">
                     <img src="images/bullet-1.gif" width="8" height="9">
                     <img src="images/transp.gif" width="1" height="1">
-                    <a href="#">Links</a></td>
+                    <a href="ReactLinks.aspx">Links</a></td>
             </tr>
             <tr bgcolor="#FFFFFF">
                 <td class="menu" width="147">
                     <img src="images/bullet-1.gif" width="8" height="9">
                     <img src="images/transp.gif" width="1" height="1">
-                    <a href="#" target="_blank">Blog</a></td>
+                    <a href="http://www.senshidoct.blogspot.com/" target="_blank">Blog</a></td>
             </tr>
     </table>
     <table width="150" border="0" cellspacing="0" cellpadding="3" bordercolor="#CCCCCC">

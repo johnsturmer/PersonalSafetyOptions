@@ -67,6 +67,8 @@
     <Content Include="PermitInfo.aspx" />
     <Content Include="Pistol.aspx" />
     <Content Include="React.aspx" />
+    <Content Include="ReactLinks.aspx" />
+    <Content Include="ReactTestimonials.aspx" />
     <Content Include="Schedule.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -98,6 +100,13 @@
     </Compile>
     <Compile Include="FirearmsLinks.aspx.designer.cs">
       <DependentUpon>FirearmsLinks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GenericPage.master.cs">
+      <DependentUpon>GenericPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GenericPage.master.designer.cs">
+      <DependentUpon>GenericPage.master</DependentUpon>
     </Compile>
     <Compile Include="GunSafety.aspx.cs">
       <DependentUpon>GunSafety.aspx</DependentUpon>
@@ -163,6 +172,20 @@
     <Compile Include="REACT.master.designer.cs">
       <DependentUpon>REACT.master</DependentUpon>
     </Compile>
+    <Compile Include="ReactLinks.aspx.cs">
+      <DependentUpon>ReactLinks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReactLinks.aspx.designer.cs">
+      <DependentUpon>ReactLinks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReactTestimonials.aspx.cs">
+      <DependentUpon>ReactTestimonials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReactTestimonials.aspx.designer.cs">
+      <DependentUpon>ReactTestimonials.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Schedule.aspx.cs">
       <DependentUpon>Schedule.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -185,6 +208,9 @@
       <Project>{972a4c01-95f3-43fa-a91c-72ba81c1e1fe}</Project>
       <Name>Utilities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="GenericPage.master" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
