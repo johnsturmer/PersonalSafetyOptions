@@ -68,8 +68,6 @@
     <Content Include="Pistol.aspx" />
     <Content Include="React.aspx" />
     <Content Include="Schedule.aspx" />
-    <Content Include="Test1.aspx" />
-    <Content Include="Test2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,13 +77,6 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="BasePage.Master.cs">
-      <DependentUpon>BasePage.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="BasePage.Master.designer.cs">
-      <DependentUpon>BasePage.Master</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -121,13 +112,6 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="NestedPage.master.cs">
-      <DependentUpon>NestedPage.master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="NestedPage.master.designer.cs">
-      <DependentUpon>NestedPage.master</DependentUpon>
     </Compile>
     <Compile Include="ounceofprev.aspx.cs">
       <DependentUpon>ounceofprev.aspx</DependentUpon>
@@ -186,29 +170,9 @@
     <Compile Include="Schedule.aspx.designer.cs">
       <DependentUpon>Schedule.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Test1.aspx.cs">
-      <DependentUpon>Test1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Test1.aspx.designer.cs">
-      <DependentUpon>Test1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Test2.aspx.cs">
-      <DependentUpon>Test2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Test2.aspx.designer.cs">
-      <DependentUpon>Test2.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="PSOMain.Master" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="BasePage.Master" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="NestedPage.master" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="PistolMain.master" />

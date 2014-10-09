@@ -1,6 +1,6 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/PSOMain.Master" AutoEventWireup="true" CodeBehind="REACT.master.cs" Inherits="PersonalSafetyOptions.REACT" %>
 <asp:Content ID="ImageContent" ContentPlaceHolderID="ImagePlaceholder" runat="server">
-    <img src="images/bullet-2.png" width="850" height="248" />
+    <img src="images/SenshidoBanner.jpg" width="850" height="248" />
 </asp:Content>
 <asp:Content ID="MainContent" ContentPlaceHolderID="MainPagePlaceHolder" runat="server">
     <asp:ContentPlaceHolder ID="MainPlaceholder" runat="server"></asp:ContentPlaceHolder>
