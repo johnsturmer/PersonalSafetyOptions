@@ -215,7 +215,7 @@
             <a href="http://www.webmaster-templates.net">JJ Firearms Training, LLC</a><br>
             All rights reserved</td>
           <td height="31" width="591" bgcolor="#EFE0C0"><a href="Home.aspx">Home</a> | 
-            <!--<a href="sitemap.xml">Site Map</a> |--> <a href="Contact.aspx">Contact Us</a> 
+            <a href="sitemap.xml">Site Map</a> | <a href="Contact.aspx">Contact Us</a> 
            </td>
         </tr>
       </table>
